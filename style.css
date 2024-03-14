@@ -198,11 +198,13 @@ body {
     width: 15%;
     order: 1;
     display: block;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     cursor: pointer;
     color: #A7A7A7;
     font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
     transition: background ease 0.2s;
 }
 
@@ -211,7 +213,6 @@ body {
     flex-grow: 1;
     width: 100%;
     display: none;
-    padding: none;
     padding-top: 25px;
 }
 
@@ -224,6 +225,9 @@ body {
     color: #ffffff;
 }
 
+.tabs input[type="radio"]:checked+label + .tab {
+    display:block;
+}
 .product {
     display: flex;
     align-items: center;

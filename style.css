@@ -556,6 +556,15 @@ body {
     /*mis modificaciones*/
 
     .tabInput + label {
-        font-size: 14px; /* Tamaño de fuente más pequeño */
+        font-size: 12px; /* Tamaño de fuente más pequeño */
+    }
+
+    .botones {
+        margin-top: 50px;
+
+    }
+    
+    .botones .btn-1 {
+        margin-right: 10px; /* Ajusta la distancia horizontal entre los botones según necesites */
     }
 }

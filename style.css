@@ -451,7 +451,7 @@ body {
     }
 
     .slider-txt h1 {
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .slider-txt p{
@@ -499,8 +499,8 @@ body {
     }
 
     .info-img img{
-        width: 400px;
-        height: 200px;
+        width: 325px;
+        height: 150px;
         margin-bottom: 25px;
     }
 
@@ -510,7 +510,7 @@ body {
     }
 
     .info-txt h2{
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .info-txt p{
@@ -553,4 +553,9 @@ body {
         margin: 25px 0px 10px 0px;
     }
 
+    /*mis modificaciones*/
+
+    .tabInput + label {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
 }
